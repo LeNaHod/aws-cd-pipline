@@ -1,0 +1,4 @@
+sExistApp = `pgrep httpd`
+if [[ -n $isExistApp ]]; then
+     systemctl stop httpd
+fi
